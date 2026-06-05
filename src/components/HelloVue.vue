@@ -18,7 +18,8 @@ function helloFunc(){
 <template>
     <!-- Directive v-bind digunakan untuk mengisi id atau class secara dinamis -->
     <h1 v-bind:id="idHello" v-bind:class="classHello">{{ hello }}</h1>
-    <h1 class="hello">{{ hello.toUpperCase }}</h1>
+    <h1 class="hello">{{ hello }}</h1>
+    <h1 class="hello">{{ hello.toUpperCase() }}</h1>
     <h1 class="hello">{{ 10 * 10 }}</h1>
     <h2>{{ helloFunc() }}</h2>
     <div v-bind:class="data.class" v-html="hello"></div>

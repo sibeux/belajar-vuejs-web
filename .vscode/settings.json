@@ -1,4 +1,6 @@
 {
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
 }
