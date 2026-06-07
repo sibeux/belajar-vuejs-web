@@ -1,8 +1,20 @@
 {
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "editor.wordWrap": "on",
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 100
+   "terminal.integrated.defaultProfile.windows": "Git Bash",
+   "editor.wordWrap": "on",
+   "editor.formatOnSave": true,
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
+   "files.autoSave": "afterDelay",
+   "files.autoSaveDelay": 100,
+   "editor.indentRainbow.enabled": true,
+   "editor.indentRainbow.colors": [
+      "#1f01971f",
+      "#057e051f",
+      "#480e951f",
+      "#0097111f",
+      "#a6013f1f",
+      "#0051971f"
+   ],
+   "prettier.tabWidth": 3,
+   "editor.tabSize": 3,
+   "editor.detectIndentation": false
 }
